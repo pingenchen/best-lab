@@ -12,7 +12,3 @@ title: Links
 ## Project Websites (official links)
 - [SMART Project](https://battsmart.com/)
 - [Rural Reimagined](https://rural-reimagined.com/)
-
-## Professional
-- Google Scholar: *(add link)*
-- LinkedIn: *(optional)*
