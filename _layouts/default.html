@@ -1,31 +1,57 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{{ page.title }} | {{ site.title }}</title>
-    <style>
-      body { margin: 0; font-family: Arial, Helvetica, sans-serif; }
-      .nav { background: #000; padding: 10px 14px; }
-      .nav a { color: #fff; text-decoration: none; margin-right: 20px; font-size: 16px; }
-      .nav a:hover { text-decoration: underline; }
-      .container { max-width: 980px; margin: 0 auto; padding: 24px; }
-    </style>
-  </head>
-  <body>
-    <div class="nav">
-      <a href="{{ '/' | relative_url }}">Home</a>
-      <a href="{{ '/director/' | relative_url }}">Director</a>
-      <a href="{{ '/team/' | relative_url }}">Team</a>
-      <a href="{{ '/honors/' | relative_url }}">Honors</a>
-      <a href="{{ '/publications/' | relative_url }}">Publications</a>
-      <a href="{{ '/teaching/' | relative_url }}">Teaching</a>
-      <a href="{{ '/outreach/' | relative_url }}">Outreach</a>
-      <a href="{{ '/links/' | relative_url }}">Links</a>
-    </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ page.title }} | {{ site.title }}</title>
 
-    <div class="container">
-      {{ content }}
-    </div>
-  </body>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+    }
+
+    .nav {
+      background: #000;
+      padding: 10px 16px;
+    }
+
+    .nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 22px;
+      font-size: 16px;
+    }
+
+    .nav a:hover {
+      text-decoration: underline;
+    }
+
+    .content {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="nav">
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ '/director/' | relative_url }}">Director</a>
+    <a href="{{ '/team/' | relative_url }}">Team</a>
+    <a href="{{ '/honors/' | relative_url }}">Honors</a>
+    <a href="{{ '/publications/' | relative_url }}">Publications</a>
+    <a href="{{ '/teaching/' | relative_url }}">Teaching</a>
+    <a href="{{ '/outreach/' | relative_url }}">Outreach</a>
+    <a href="{{ '/links/' | relative_url }}">Links</a>
+  </div>
+
+  <div class="content">
+    {{ content }}
+  </div>
+
+</body>
 </html>
