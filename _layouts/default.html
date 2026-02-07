@@ -70,12 +70,62 @@
       display: inline-block;
       padding-bottom: 4px;
     }
+
+    /* Header with UTK logo */
+.site-header{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.utk-logo{
+  height: 48px;
+  width: auto;
+}
+
+.site-title{
+  display: flex;
+  flex-direction: column;
+}
+
+.lab-name{
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--smokey-gray);
+}
+
+.lab-subtitle{
+  font-size: 14px;
+  color: var(--smokey-gray);
+  opacity: 0.9;
+}
+
   </style>
 </head>
 
 <body>
 
   <div class="utk-idline"></div>
+<!-- Header with UTK logo -->
+<div class="site-header">
+  <a href="https://www.utk.edu" target="_blank" rel="noopener">
+    <img
+      src="{{ '/University - HorizRightLogo (CMYK).jpg' | relative_url }}"
+      alt="University of Tennessee, Knoxville"
+      class="utk-logo"
+    />
+  </a>
+
+  <div class="site-title">
+    <div class="lab-name">BEST Lab</div>
+    <div class="lab-subtitle">
+      Battery, Energy, and Smart Transportation · University of Tennessee, Knoxville
+    </div>
+  </div>
+</div>
 
   <div class="nav">
     <!-- Add 'active' class automatically based on current page -->
