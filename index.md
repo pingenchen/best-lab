@@ -1,3 +1,8 @@
+---
+layout: default
+title: BEST Lab
+---
+
 # BEST Lab  
 **Battery, Energy, and Smart Transportation (BEST) Lab**  
 University of Tennessee, Knoxville
