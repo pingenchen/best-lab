@@ -15,7 +15,12 @@ title: Team
 - Adry Lain — Second-life battery system design and applications, mobile charging system design
 
 ### Undergraduate Researchers
-- Name — Topic
+- Jack Zimberg
+- William Nicolas Benedict
+- Matthew Conner Rowe
+- Lily Rai Little
+- Samuel Jinan El Maliki
+- Ciel Voy
 
 ## Alumni
 
