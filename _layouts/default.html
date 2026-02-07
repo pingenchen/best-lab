@@ -6,48 +6,88 @@
   <title>{{ page.title }} | {{ site.title }}</title>
 
   <style>
+    :root{
+      --ut-orange: #FF8200;
+      --smokey-gray: #4B4B4B;
+      --white: #FFFFFF;
+      --light-gray: #E6E6E6;
+    }
+
     body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
       line-height: 1.6;
+      color: var(--smokey-gray);
+      background: var(--white);
+    }
+
+    /* UTK "Big Orange" ID line */
+    .utk-idline{
+      height: 6px;
+      background: var(--ut-orange);
+      width: 100%;
     }
 
     .nav {
-      background: #000;
+      background: var(--smokey-gray); /* UTK Smokey Gray instead of black */
       padding: 10px 16px;
+      border-bottom: 1px solid rgba(255,255,255,0.15);
     }
 
     .nav a {
-      color: #fff;
+      color: var(--white);
       text-decoration: none;
       margin-right: 22px;
       font-size: 16px;
+      padding: 6px 0;
+      display: inline-block;
     }
 
     .nav a:hover {
       text-decoration: underline;
     }
 
+    /* Optional: subtle active link styling (works if URL matches) */
+    .nav a.active {
+      text-decoration: underline;
+      text-decoration-color: var(--ut-orange);
+      text-underline-offset: 6px;
+      text-decoration-thickness: 3px;
+    }
+
     .content {
       max-width: 1000px;
       margin: 0 auto;
-      padding: 24px;
+      padding: 24px 16px;
+    }
+
+    /* Make headings feel more UTK-branded */
+    h1, h2, h3 {
+      color: var(--smokey-gray);
+    }
+    h2 {
+      border-bottom: 3px solid var(--ut-orange);
+      display: inline-block;
+      padding-bottom: 4px;
     }
   </style>
 </head>
 
 <body>
 
+  <div class="utk-idline"></div>
+
   <div class="nav">
-    <a href="{{ '/' | relative_url }}">Home</a>
-    <a href="{{ '/director/' | relative_url }}">Director</a>
-    <a href="{{ '/team/' | relative_url }}">Team</a>
-    <a href="{{ '/honors/' | relative_url }}">Honors</a>
-    <a href="{{ '/publications/' | relative_url }}">Publications</a>
-    <a href="{{ '/teaching/' | relative_url }}">Teaching</a>
-    <a href="{{ '/outreach/' | relative_url }}">Outreach</a>
-    <a href="{{ '/links/' | relative_url }}">Links</a>
-    <a href="{{ '/news/' | relative_url }}">News</a>
+    <!-- Add 'active' class automatically based on current page -->
+    <a href="{{ '/' | relative_url }}" class="{% if page.url == '/' %}active{% endif %}">Home</a>
+    <a href="{{ '/director/' | relative_url }}" class="{% if page.url contains '/director/' %}active{% endif %}">Director</a>
+    <a href="{{ '/team/' | relative_url }}" class="{% if page.url contains '/team/' %}active{% endif %}">Team</a>
+    <a href="{{ '/honors/' | relative_url }}" class="{% if page.url contains '/honors/' %}active{% endif %}">Honors</a>
+    <a href="{{ '/publications/' | relative_url }}" class="{% if page.url contains '/publications/' %}active{% endif %}">Publications</a>
+    <a href="{{ '/teaching/' | relative_url }}" class="{% if page.url contains '/teaching/' %}active{% endif %}">Teaching</a>
+    <a href="{{ '/outreach/' | relative_url }}" class="{% if page.url contains '/outreach/' %}active{% endif %}">Outreach</a>
+    <a href="{{ '/links/' | relative_url }}" class="{% if page.url contains '/links/' %}active{% endif %}">Links</a>
+    <a href="{{ '/news/' | relative_url }}" class="{% if page.url contains '/news/' %}active{% endif %}">News</a>
   </div>
 
   <div class="content">
