@@ -6,8 +6,8 @@ title: Publications
 # Publications
 
 ## Selected Journal Papers
-- J1.	M.A. Eissa and P. Chen, "Aging-aware charging strategy for EV battery longevity in rural areas," Control Eng.Pract., vol. 166, pp. 106626 2026.  
-- J2.	S. Yang, Z. Su, M.D. Lamantia and P. Chen*, "Comprehensive Simulation and Experimental Validation of Sliding Mode Control-based Spacing Control for Battery Electric Vehicles under Uncertain Environments," Journal of Autonomous Vehicles and Systems, pp. 1–30, 2025.  
+J1.	M.A. Eissa and P. Chen, "Aging-aware charging strategy for EV battery longevity in rural areas," Control Eng.Pract., vol. 166, pp. 106626 2026.  
+J2.	S. Yang, Z. Su, M.D. Lamantia and P. Chen*, "Comprehensive Simulation and Experimental Validation of Sliding Mode Control-based Spacing Control for Battery Electric Vehicles under Uncertain Environments," Journal of Autonomous Vehicles and Systems, pp. 1–30, 2025.  
 J3.	A. Farakhor, D. Wu, P. Chen, J. Wang, Y. Wang and H. Fang, "Economic optimal power management of second-life battery energy storage systems," arXiv Preprint arXiv:2408.16197, 2024.  
 J4.	Z. Su and P. Chen, "Driver-Centric Capacitated Electric Vehicle Routing Problem: A Human Energy-Aware Approach," Journal of Dynamic Systems, Measurement, and Control, pp. 1–20, 2023.  
 J5.	W. Li, M.M. Pan, C.R. Wang and P. Chen, "Impacts and emerging research opportunities in Vehicle-Grid Integration for transportation: A review," Transportation Research Part D: Transport and Environment, vol. 145, pp. 104802, 2025.  
