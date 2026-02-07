@@ -17,6 +17,6 @@ The BEST Lab focuses on control, optimization, and real-world deployment of fuel
 **Prof. Pingen Chen**  
 Department of Mechanical and Aerospace Engineering  
 University of Tennessee, Knoxville  
-Email: pchen23@utk.edu
-Phone: 865-974-4962
+Email: pchen23@utk.edu  
+Phone: 865-974-4962  
 Faculty page: https://tickle.utk.edu/mae/pingen-chen/
