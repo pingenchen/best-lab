@@ -28,10 +28,59 @@
       width: 100%;
     }
 
+    /* Header (UTK + BEST Lab logos + title) */
+    .site-header{
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 14px 16px;
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      border-bottom: 1px solid var(--light-gray);
+    }
+
+    .utk-logo{
+      height: 48px;
+      width: auto;
+      display: block;
+    }
+
+    /* BEST Lab logo (update path below if your file is not in /assets/img/) */
+    .bestlab-logo{
+      height: 56px;
+      width: auto;
+      display: block;
+    }
+
+    .site-title{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .lab-name{
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--smokey-gray);
+      margin: 0;
+    }
+
+    .lab-subtitle{
+      font-size: 14px;
+      color: var(--smokey-gray);
+      opacity: 0.9;
+      margin: 2px 0 0 0;
+    }
+
+    /* Navigation */
     .nav {
-      background: var(--smokey-gray); /* UTK Smokey Gray instead of black */
+      background: var(--smokey-gray);
       padding: 10px 16px;
       border-bottom: 1px solid rgba(255,255,255,0.15);
+    }
+
+    .nav-inner{
+      max-width: 1000px;
+      margin: 0 auto;
     }
 
     .nav a {
@@ -47,7 +96,6 @@
       text-decoration: underline;
     }
 
-    /* Optional: subtle active link styling (works if URL matches) */
     .nav a.active {
       text-decoration: underline;
       text-decoration-color: var(--ut-orange);
@@ -70,74 +118,50 @@
       display: inline-block;
       padding-bottom: 4px;
     }
-
-    /* Header with UTK logo */
-.site-header{
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 14px 16px;
-  display: flex;
-  align-items: center;
-  gap: 18px;
-}
-
-.utk-logo{
-  height: 48px;
-  width: auto;
-}
-
-.site-title{
-  display: flex;
-  flex-direction: column;
-}
-
-.lab-name{
-  font-size: 20px;
-  font-weight: 700;
-  color: var(--smokey-gray);
-}
-
-.lab-subtitle{
-  font-size: 14px;
-  color: var(--smokey-gray);
-  opacity: 0.9;
-}
-
   </style>
 </head>
 
 <body>
 
   <div class="utk-idline"></div>
-<!-- Header with UTK logo -->
-<div class="site-header">
-  <a href="https://www.utk.edu" target="_blank" rel="noopener">
-    <img
-      src="{{ '/University - HorizRightLogo (CMYK).jpg' | relative_url }}"
-      alt="University of Tennessee, Knoxville"
-      class="utk-logo"
-    />
-  </a>
 
-  <div class="site-title">
-    <div class="lab-name">BEST Lab</div>
-    <div class="lab-subtitle">
-      Battery, Energy, and Smart Transportation · University of Tennessee, Knoxville
+  <!-- Header with UTK + BEST Lab logos -->
+  <div class="site-header">
+    <a href="https://www.utk.edu" target="_blank" rel="noopener">
+      <img
+        src="{{ '/University - HorizRightLogo (CMYK).jpg' | relative_url }}"
+        alt="University of Tennessee, Knoxville"
+        class="utk-logo"
+      />
+    </a>
+
+    <!-- BEST Lab logo: expected at /assets/img/BEST-lab-logo.png -->
+    <img
+      src="{{ '/assets/img/BEST-lab-logo.png' | relative_url }}"
+      alt="BEST Lab logo"
+      class="bestlab-logo"
+    />
+
+    <div class="site-title">
+      <p class="lab-name">BEST Lab</p>
+      <p class="lab-subtitle">
+        Battery, Energy, and Smart Transportation · University of Tennessee, Knoxville
+      </p>
     </div>
   </div>
-</div>
 
   <div class="nav">
-    <!-- Add 'active' class automatically based on current page -->
-    <a href="{{ '/' | relative_url }}" class="{% if page.url == '/' %}active{% endif %}">Home</a>
-    <a href="{{ '/director/' | relative_url }}" class="{% if page.url contains '/director/' %}active{% endif %}">Director</a>
-    <a href="{{ '/team/' | relative_url }}" class="{% if page.url contains '/team/' %}active{% endif %}">Team</a>
-    <a href="{{ '/honors/' | relative_url }}" class="{% if page.url contains '/honors/' %}active{% endif %}">Honors</a>
-    <a href="{{ '/publications/' | relative_url }}" class="{% if page.url contains '/publications/' %}active{% endif %}">Publications</a>
-    <a href="{{ '/teaching/' | relative_url }}" class="{% if page.url contains '/teaching/' %}active{% endif %}">Teaching</a>
-    <a href="{{ '/outreach/' | relative_url }}" class="{% if page.url contains '/outreach/' %}active{% endif %}">Outreach</a>
-    <a href="{{ '/links/' | relative_url }}" class="{% if page.url contains '/links/' %}active{% endif %}">Links</a>
-    <a href="{{ '/news/' | relative_url }}" class="{% if page.url contains '/news/' %}active{% endif %}">News</a>
+    <div class="nav-inner">
+      <a href="{{ '/' | relative_url }}" class="{% if page.url == '/' %}active{% endif %}">Home</a>
+      <a href="{{ '/director/' | relative_url }}" class="{% if page.url contains '/director/' %}active{% endif %}">Director</a>
+      <a href="{{ '/team/' | relative_url }}" class="{% if page.url contains '/team/' %}active{% endif %}">Team</a>
+      <a href="{{ '/honors/' | relative_url }}" class="{% if page.url contains '/honors/' %}active{% endif %}">Honors</a>
+      <a href="{{ '/publications/' | relative_url }}" class="{% if page.url contains '/publications/' %}active{% endif %}">Publications</a>
+      <a href="{{ '/teaching/' | relative_url }}" class="{% if page.url contains '/teaching/' %}active{% endif %}">Teaching</a>
+      <a href="{{ '/outreach/' | relative_url }}" class="{% if page.url contains '/outreach/' %}active{% endif %}">Outreach</a>
+      <a href="{{ '/links/' | relative_url }}" class="{% if page.url contains '/links/' %}active{% endif %}">Links</a>
+      <a href="{{ '/news/' | relative_url }}" class="{% if page.url contains '/news/' %}active{% endif %}">News</a>
+    </div>
   </div>
 
   <div class="content">
