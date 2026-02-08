@@ -44,7 +44,7 @@ Before that, he was a controls and diagnostics senior engineer at the Cummins Te
 
 Dr. Chen is the author or co-author of more than 100 peer-reviewed publications, including 28 journal articles, 71 conference papers, and 1 patent. His research activities (as PI or Co-PI) have received more than $28 million in funding from sources including the U.S. Department of Energy, Tennessee Department of Transportation, Tennessee Department of Environment and Conservation, Tennessee Tech University, Cummins Inc., Denso, Nissan, and others.
 
-His research interests include:
+His research interests include:  
 1) modeling, control, and optimization of hybrid and electric vehicle systems; automated and connected vehicles; energy-efficient urban and rural mobility systems; battery energy storage systems (first-life applications, recycling, and reuse); internal combustion engines; aftertreatment systems; and alternative/renewable fuels;  
 2) deployment of advanced vehicle technologies to serve broad communities and stakeholders.
 
