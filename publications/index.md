@@ -6,7 +6,7 @@ title: Publications
 # Publications
 
 ## Selected Journal Papers
-J29. Z. Su and P. Chen*, "Integrating Towable Mobile Charging Hubs into Electric Vehicle Route Planning with Time Window Constraints and Partial Recharging," IEEE Transactions on Transportation Electrification (accepted, 2026).
+J29. Z. Su and P. Chen*, "Integrating Towable Mobile Charging Hubs into Electric Vehicle Route Planning with Time Window Constraints and Partial Recharging," IEEE Transactions on Transportation Electrification (accepted, 2026).\\
 J28.	M.A. Eissa and P. Chen, "Aging-aware charging strategy for EV battery longevity in rural areas," Control Eng.Pract., vol. 166, pp. 106626 2026.  
 J27.	S. Yang, Z. Su, M.D. Lamantia and P. Chen*, "Comprehensive Simulation and Experimental Validation of Sliding Mode Control-based Spacing Control for Battery Electric Vehicles under Uncertain Environments," Journal of Autonomous Vehicles and Systems, pp. 1–30, 2025.  
 J26.	A. Farakhor, D. Wu, P. Chen, J. Wang, Y. Wang and H. Fang, "Economic optimal power management of second-life battery energy storage systems," arXiv Preprint arXiv:2408.16197, 2024.  
