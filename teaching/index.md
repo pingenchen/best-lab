@@ -9,6 +9,8 @@ title: Teaching
 - ME 450 — Mechanical Engineering Design I (Fall 2025)
 - ME 449 — Mechanical Engineering Laboratory (Spring 2026)
 - ME 460 — Mechanical Engineering Design II (Spring 2026)
+- ME 480/588/610 — Introduction to Hybrid Electric Vehicle (Fall 2026)
+- ME 450 — Mechanical Engineering Design I (Fall 2026)
 
 ## Previous Courses at Tennessee Technological University (Selected)
 - Automatic Control (ME 4810/5810)
