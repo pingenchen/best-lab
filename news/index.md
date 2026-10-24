@@ -6,6 +6,7 @@ title: News
 # News
 
 ## 2026
+-**July 2026** — Prof. Pingen Chen will serve as the lead faculty advisor for the EcoCAR Innovation Challenge Team at University of Tennessee, Knoxville. Our team members, Zakerie Hubbs, Sheng Liu, and Xinquan Liang will take on three graduate student lead positions on the EcoCAR team. Congratulations.
 - **Feb 2026** — BEST Lab website launched at the University of Tennessee, Knoxville.
 - **Jan 2026** — PhD Student, Adry Lain, joined the BEST Lab. Welcome, Adry!
 
