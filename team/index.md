@@ -8,11 +8,13 @@ title: Team
 ## Current Members
 
 ### Postdoc Researcher
-- Dr. Zifei Su — Modeling, control, and optimization of EV, connected and automated vehicles, and charging infrastracture
+- TBA
   
 ### PhD Students
 - Sheng Liu — Battery system design, modeling, control, and diagnostics
-- Adry Lain — Second-life battery system design and applications, mobile charging system design
+- Xinquan Liang — Off-road vehicle control, powertrain control
+- Zakerie Hubbs — Off-road vehicle architecture design, powertrain simulation and control
+- Ciel Voy — Mobile charging station, control and optimization
 
 ### Undergraduate Researchers
 - Jack Zimberg
@@ -20,11 +22,11 @@ title: Team
 - Matthew Conner Rowe
 - Lily Rai Little
 - Samuel Jinan El Maliki
-- Ciel Voy
 
 ## Alumni
 
 ### Postdoctoral Alumni
+- **Zifei Su** — Postdoctoral Researcher (Oct. 2025 - April 2026)
 - **Maxavier D. Lamantia** — Postdoctoral Researcher (Summer 2025)
 - **Cody Innis** — Postdoctoral Researcher (Summer 2025)
 
